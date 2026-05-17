@@ -1,0 +1,8 @@
+graph TD
+    A[AG News Text] --> B[OpenAI Embedding Model]
+    B --> C[Dense Vector per Article]
+    C --> D[Similarity Search]
+    D --> E[Prototype Classifier]
+    D --> F[Retrieved Examples]
+    F --> G[OpenAI Chat Model]
+    G --> H[Prediction + Explanation]

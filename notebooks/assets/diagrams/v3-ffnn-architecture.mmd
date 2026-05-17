@@ -1,0 +1,13 @@
+graph LR
+    subgraph Input
+        I[BOW Vector]
+    end
+    subgraph Hidden_Layer
+        L1[Linear + ReLU]
+    end
+    subgraph Output
+        L2[Linear]
+    end
+    I --> L1
+    L1 --> L2
+    L2 --> P[4 Category Scores]

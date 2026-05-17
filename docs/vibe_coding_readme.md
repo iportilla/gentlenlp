@@ -52,6 +52,34 @@ graph TD
 
 The path to "Vibe Coding" has been marked by several distinct phases of AI interaction:
 
+```mermaid
+timeline
+    title Evolution of AI Coding
+    Ghostwriter Era : Code Completion : Inline suggestions : Tokens
+    Consultant Era : Chat Interface : Sidebar Q&A : Manual Context
+    Architect Era : Plan Mode : Multi-file implementation : Structural blueprints
+    Partner Era : Agentic Workflows : Tool use : Autonomous debugging : Vibe Coding
+```
+
+```mermaid
+graph LR
+    subgraph Mindset
+    A[Code Ownership]
+    B[Zero-Trust Security]
+    end
+    subgraph Action
+    C[Documentation]
+    D[Continuous Refactoring]
+    end
+    subgraph Responsibility
+    E[Ethics/Bias Review]
+    F[Sustainability]
+    end
+    A --> C
+    B --> D
+    E --> F
+```
+
 1.  **Code Completion (The "Ghostwriter" Era)**: Simple inline suggestions based on local context. AI acted as a sophisticated "Tab-to-complete" tool, predicting the next few tokens of code.
 2.  **Chat Interface (The "Consultant" Era)**: Developers could ask questions and request snippets in a sidebar. This moved the AI from a mere typist to a technical advisor, though context management was manual and repetitive.
 3.  **Plan Mode (The "Architect" Era)**: AI began proposing multi-file changes and high-level architecture before implementation. Developers could review a logical "blueprint" of the changes across the entire project structure.
@@ -62,6 +90,18 @@ The path to "Vibe Coding" has been marked by several distinct phases of AI inter
 As the partnership between humans and AI deepens, adopting a mature set of best practices ensures high-quality, sustainable, and responsible development.
 
 ### 1. Code Understanding & Ownership
+```mermaid
+graph TD
+    S1[Stage 1: Foundations] --> S2[Stage 2: Context Mastery]
+    S2 --> S3[Stage 3: The Pilot]
+    S3 --> S4[Stage 4: Mastery]
+    
+    style S1 fill:#f9f,stroke:#333,stroke-width:2px
+    style S2 fill:#bbf,stroke:#333,stroke-width:2px
+    style S3 fill:#bfb,stroke:#333,stroke-width:2px
+    style S4 fill:#fdf,stroke:#333,stroke-width:2px
+```
+
 *   **The "Explain-Back" Rule**: Periodically ask the AI to explain the *intuition* behind a generated algorithm. If you can't explain why a certain piece of code exists, you don't own it yet.
 *   **Documentation as Code**: Require the AI to generate JSDoc, Docstrings, or README updates alongside the code. Accurate documentation is the bridge between AI generations and future human understanding.
 
